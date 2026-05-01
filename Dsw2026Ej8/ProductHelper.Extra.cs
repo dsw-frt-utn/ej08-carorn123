@@ -8,7 +8,7 @@ namespace Dsw2026Ej8
     {
         private string FormatoMoneda(decimal price)
         {
-            return price.ToString("C");
+            return price.ToString("C", new System.Globalization.CultureInfo("es-AR"));
         }
     }
 }
